@@ -1,0 +1,1339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>352, 485</value>
+  </data>
+  <data name="buttonDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBoxAffichage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonDeleteAll.Text" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="&gt;&gt;RERDED.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonNegate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="buttonPlus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 322</value>
+  </data>
+  <data name="&gt;&gt;buttonNegate.Name" xml:space="preserve">
+    <value>buttonNegate</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;buttonPlus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;buttonEqual.Name" xml:space="preserve">
+    <value>buttonEqual</value>
+  </data>
+  <data name="&gt;&gt;buttonPoint.Name" xml:space="preserve">
+    <value>buttonPoint</value>
+  </data>
+  <data name="buttonDivision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 167</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonNegate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;buttonLess.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonEqual.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="buttonNegate.Text" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="buttonM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBoxAffichage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 7</value>
+  </data>
+  <data name="&gt;&gt;buttonLess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDivision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 400</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonPoint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="RERDED.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;buttonNegate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonEqual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="buttonDeleteAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="textBoxAffichage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 19.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonPoint.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="buttonEqual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 400</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteAll.Name" xml:space="preserve">
+    <value>buttonDeleteAll</value>
+  </data>
+  <data name="&gt;&gt;buttonPlus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 244</value>
+  </data>
+  <data name="RERDED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalculette</value>
+  </data>
+  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="button5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxAffichage.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="buttonM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="buttonDeleteAll.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="buttonEqual.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonNegate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 167</value>
+  </data>
+  <data name="buttonM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonDivision.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="buttonEqual.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="buttonPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 7</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonLess.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBoxAffichage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonDivision.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonPlus.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="button6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 244</value>
+  </data>
+  <data name="buttonDivision.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteAll.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;buttonDivision.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="buttonNegate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 90</value>
+  </data>
+  <data name="&gt;&gt;button0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 167</value>
+  </data>
+  <data name="&gt;&gt;button0.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calculatrice</value>
+  </data>
+  <data name="&gt;&gt;buttonM.Name" xml:space="preserve">
+    <value>buttonM</value>
+  </data>
+  <data name="&gt;&gt;buttonM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="buttonDivision.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="buttonDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;buttonDivision.Name" xml:space="preserve">
+    <value>buttonDivision</value>
+  </data>
+  <data name="&gt;&gt;buttonEqual.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonLess.Name" xml:space="preserve">
+    <value>buttonLess</value>
+  </data>
+  <data name="buttonPoint.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 244</value>
+  </data>
+  <data name="buttonPlus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="button0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="buttonLess.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 400</value>
+  </data>
+  <data name="&gt;&gt;buttonEqual.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;buttonNegate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonNegate.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;button10.Name" xml:space="preserve">
+    <value>button10</value>
+  </data>
+  <data name="buttonEqual.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonPlus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxAffichage.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="buttonM.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBoxAffichage.Name" xml:space="preserve">
+    <value>textBoxAffichage</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonPlus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="button8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="buttonEqual.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="buttonDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 90</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 322</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 167</value>
+  </data>
+  <data name="button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="buttonLess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="buttonPlus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 148</value>
+  </data>
+  <data name="buttonLess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="buttonM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 90</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="buttonDeleteAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="button7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="buttonPlus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="textBoxAffichage.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="textBoxAffichage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;RERDED.Name" xml:space="preserve">
+    <value>RERDED</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="buttonPlus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="buttonLess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 244</value>
+  </data>
+  <data name="&gt;&gt;textBoxAffichage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="button10.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="buttonDeleteAll.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEASF8AAAEAIAB8bwAAFgAAACgAAABIAAAAvgAAAAEAIAAAAAAA4GoAACUWAAAlFgAAAAAAAAAA
+        AABNSkf/g3pv/4N6bv+DeW7/g3lu/4N5bv+DeW7/g3lu/4N5bf+DeW3/gnht/4J4bf+CeG3/gnhs/4J4
+        bP+CeGz/gnhs/4F3bP+Bd2z/gXdr/4F3a/+Bd2v/gXdr/4F2a/+Admv/gHZq/4B2av+Admr/gHZq/4B2
+        av+AdWr/gHVp/391af9/dWn/f3Vp/391af9/dGj/f3Ro/390aP9+dGj/fnRo/350aP9+dGf/fnNn/35z
+        Z/9+c2f/fnNn/31zZ/99c2b/fXNm/31yZv99cmb/fXJm/31yZf98cmX/fHJl/3xxZf98cWX/fHFl/3xx
+        ZP98cWT/fHFk/3txZP97cGT/e3Bj/3twY/97cGP/e3Bj/3twY/96cGP/em9i/0pHQ/97cmn/hHpv/4R6
+        b/+Dem//g3pu/4N5bv+DeW7/g3lu/4N5bv+DeW7/g3lt/4J4bf+CeG3/gnht/4J4bf+CeGz/gnhs/4J4
+        bP+CeGz/gXds/4F3bP+Bd2v/gXdr/4F3a/+Bd2v/gXZr/4B2a/+Admr/gHZq/4B2av+Admr/gHVq/4B1
+        af9/dWn/f3Vp/391af9/dWn/f3Vp/390aP9/dGj/f3Ro/350aP9+dGj/fnRn/350Z/9+c2f/fnNn/35z
+        Z/9+c2f/fXNn/31zZv99c2b/fXJm/31yZv99cmb/fXJl/3xyZf98cmX/fHFl/3xxZf98cWX/fHFk/3xx
+        ZP97cWT/e3Fk/3twZP97cGP/e3Bj/3twY/97cGP/e3Bj/3JpXv+Eem//hHpv/4R6b/+Eem//hHpv/4N6
+        b/+Dem7/g3lu/4N5bv+DeW7/g3lu/4N5bf+DeW3/gnht/4J4bf+CeG3/gnht/4J4bP+CeGz/gnhs/4F3
+        bP+Bd2z/gXdr/4F3a/+Bd2v/gXdr/4F3a/+Bdmv/gHZr/4B2av+Admr/gHZq/4B2av+AdWr/gHVp/391
+        af9/dWn/f3Vp/391af9/dWn/f3Ro/390aP9+dGj/fnRo/350aP9+dGf/fnRn/35zZ/9+c2f/fnNn/35z
+        Z/99c2b/fXNm/31yZv99cmb/fXJm/31yZv99cmX/fHJl/3xyZf98cWX/fHFl/3xxZP98cWT/fHFk/3tx
+        ZP97cWT/e3Bk/3twY/97cGP/e3Bj/3twY/+Ee3D/hHtw/4R6b/+Eem//hHpv/4R6b/+Eem//g3pv/4N6
+        bv+DeW7/g3lu/4N5bv+DeW7/g3lt/4N5bf+CeG3/gnht/4J4bf+CeG3/gnhs/4J4bP+CeGz/gXds/4F3
+        bP+Bd2v/gXdr/4F3a/+Bd2v/gXdr/4B2a/+Admr/gHZq/4B2av+Admr/gHZq/4B1av+AdWn/f3Vp/391
+        af9/dWn/f3Vp/390aP9/dGj/f3Ro/350aP9+dGj/fnRo/350Z/9+dGf/fnNn/35zZ/9+c2f/fXNn/31z
+        Zv99c2b/fXJm/31yZv99cmb/fXJm/31yZf98cmX/fHFl/3xxZf98cWX/fHFk/3xxZP98cWT/e3Fk/3tx
+        ZP97cGT/e3Bj/3twY/+Fe3D/hHtw/4R7cP+Ee3D/hHpv/4R6b/+Eem//hHpv/4N6b/+Dem7/g3lu/4N5
+        bv+DeW7/g3lu/4N5bv+DeW3/g3lt/4J4bf+CeG3/gnht/4J4bP+CeGz/gnhs/4J4bP+Bd2z/gXds/4F3
+        a/+Bd2v/gXdr/4F3a/+Bdmv/gHZr/4B2av+Admr/gHZq/4B2av+Admr/gHVq/391af9/dWn/f3Vp/391
+        af9/dWn/f3Ro/390aP9/dGj/fnRo/350aP9+dGj/fnRn/35zZ/9+c2f/fnNn/35zZ/99c2f/fXNm/31z
+        Zv99cmb/fXJm/31yZv99cmX/fHJl/3xyZf98cWX/fHFl/3xxZf98cWT/fHFk/3xxZP97cWT/e3Bk/3tw
+        Y/+Fe3D/hXtw/4V7cP+Ee3D/hHtw/4R7cP+Eem//hHpv/4R6b/+Eem//g3pv/4N6bv+DeW7/g3lu/4N5
+        bv+DeW7/g3lu/4N5bf+CeG3/gnht/4J4bf+CeG3/gnhs/4J4bP+CeGz/gnhs/4F3bP+Bd2v/gXdr/4F3
+        a/+Bd2v/gXdr/4F2a/+Admv/gHZq/4B2av+Admr/gHZq/4B1av+AdWn/f3Vp/391af9/dWn/f3Vp/391
+        af9/dGj/f3Ro/390aP9+dGj/fnRo/350Z/9+dGf/fnNn/35zZ/9+c2f/fnNn/31zZ/99c2b/fXJm/31y
+        Zv99cmb/fXJm/31yZf98cmX/fHJl/3xxZf98cWX/fHFl/3xxZP98cWT/e3Fk/3txZP+Fe3H/hXtw/4V7
+        cP+Fe3D/hXtw/4R7cP+Ee3D/hHpv/4R6b/+Eem//hHpv/4R6b/+Dem//g3pu/4N5bv+DeW7/g3lu/4N5
+        bv+DeW3/g3lt/4J4bf+CeG3/gnht/4J4bf+CeGz/gnhs/4J4bP+Bd2z/gXds/4F3a/+Bd2v/gXdr/4F3
+        a/+Bd2v/gXZr/4B2a/+Admr/gHZq/4B2av+Admr/gHVq/4B1af9/dWn/f3Vp/391af9/dWn/f3Vp/390
+        aP9/dGj/fnRo/350aP9+dGj/fnRn/350Z/9+c2f/fnNn/35zZ/99c2f/fXNm/31zZv99cmb/fXJm/31y
+        Zv99cmb/fXJl/3xyZf98cmX/fHFl/3xxZf98cWT/fHFk/3xxZP+FfHH/hXxx/4V7cf+Fe3D/hXtw/4V7
+        cP+Ee3D/hHtw/6+nnf/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/66lnP+CeG3/gnhs/4J4bP+CeGz/rqWb/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/raSa/391af9/dWn/f3Vp/391af98WT7/ej4V/3k+
+        Ff95Phb/eD4W/3g9Fv94PRb/dz0W/3c8Fv92PBb/djwW/3U8Fv91Oxf/dDsX/3Q7F/94Vj7/fXJm/31y
+        Zv98cmX/fHJl/3xxZf98cWX/fHFl/3xxZP+GfHH/hXxx/4V8cf+Fe3H/hXtw/4V7cP+Fe3D/hXtw/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+CeG3/gnht/4J4bf+CeGz/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4B1av9/dWn/f3Vp/391af97PxX/ej8V/3o/Ff96PhX/eT4V/3k+
+        Fv94Phb/eD0W/3c9Fv93PRb/dzwW/3Y8Fv92PBb/dTwW/3U7F/90Oxf/fXJm/31yZv99cmb/fXJl/3xy
+        Zf98cmX/fHFl/3xxZf+GfHL/hnxx/4V8cf+FfHH/hXxx/4V7cf+Fe3D/hXtw/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+DeW3/gnht/4J4
+        bf+CeG3/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4B2av+AdWr/gHVp/391af98QBX/ez8V/3s/Ff96PxX/ej8V/3k+Ff95Phb/eT4W/3g9
+        Fv94PRb/dz0W/3c9Fv92PBb/djwW/3Y8Fv91Oxb/fXNm/31yZv99cmb/fXJm/31yZv99cmX/fHJl/3xy
+        Zf+GfXL/hnxy/4Z8cf+GfHH/hXxx/4V8cf+FfHH/hXtx/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+DeW7/g3lt/4N5bf+CeG3/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4B2
+        av+Admr/gHZq/4B1av98QBX/fEAV/3tAFf97PxX/ez8V/3o/Ff96PhX/eT4V/3k+Fv94Phb/eD0W/3g9
+        Fv93PRb/dz0W/3Y8Fv92PBb/fXNn/31zZv99c2b/fXJm/31yZv99cmb/fXJm/31yZf+GfXL/hn1y/4Z8
+        cv+GfHL/hnxx/4Z8cf+FfHH/hXxx/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+DeW7/g3lu/4N5bv+DeW3/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4B2av+Admr/gHZq/4B2
+        av99QRX/fEAV/3xAFf98QBX/e0AV/3s/Ff96PxX/ej8V/3o+Ff95PhX/eT4W/3g+Fv94PRb/dz0W/3c9
+        Fv93PBb/fnNn/35zZ/99c2f/fXNm/31zZv99cmb/fXJm/31yZv+GfXL/hn1y/4Z9cv+GfXL/hnxy/4Z8
+        cv+GfHH/hnxx/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv+DeW7/g3lu/4N5bv+DeW7/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4F2a/+Admv/gHZq/4B2av9+QRT/fUEU/31B
+        Ff98QBX/fEAV/3xAFf97PxX/ez8V/3o/Ff96PxX/eT4V/3k+Ff95Phb/eD0W/3g9Fv93PRb/fnNn/35z
+        Z/9+c2f/fnNn/31zZ/99c2b/fXNm/31yZv+HfXP/h31z/4Z9cv+GfXL/hn1y/4Z9cv+GfHL/hnxy/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+Dem//g3pu/4N5bv+DeW7/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4F3a/+Bd2v/gXZr/4B2a/9+QRT/fkEU/31BFP99QRT/fUAV/3xA
+        Ff98QBX/e0AV/3s/Ff97PxX/ej8V/3o/Ff95PhX/eT4W/3k+Fv94PRb/fnRn/350Z/9+c2f/fnNn/35z
+        Z/9+c2f/fXNm/31zZv+HfnP/h31z/4d9c/+HfXP/hn1y/4Z9cv+GfXL/hn1y/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Eem//hHpv/4N6
+        b/+Dem7/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4F3a/+Bd2v/gXdr/4F3a/9/QhT/f0IU/35BFP9+QRT/fUEU/31BFf99QBX/fEAV/3xA
+        Ff97QBX/ez8V/3s/Ff96PxX/ej4V/3k+Ff95Phb/fnRo/350aP9+dGf/fnRn/35zZ/9+c2f/fnNn/31z
+        Z/+HfnP/h35z/4d+c/+HfXP/h31z/4d9c/+GfXL/hn1y/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Eem//hHpv/4R6b/+Dem//2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4F3
+        bP+Bd2v/gXdr/4F3a/+AQhT/f0IU/39CFP9+QhT/fkEU/35BFP99QRT/fUEV/3xAFf98QBX/fEAV/3tA
+        Ff97PxX/ej8V/3o/Ff96PhX/f3Ro/350aP9+dGj/fnRo/350Z/9+c2f/fnNn/35zZ/+HfnT/h350/4d+
+        c/+HfnP/h35z/4d9c/+HfXP/hn1y/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Ee3D/hHpv/4R6b/+Eem//2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4J4bP+Bd2z/gXds/4F3
+        a/+AQxT/gEIU/39CFP9/QhT/f0IU/35CFP9+QRT/fkEU/31BFP99QBX/fEAV/3xAFf98QBX/ez8V/3s/
+        Ff96PxX/f3Ro/390aP9/dGj/fnRo/350aP9+dGf/fnRn/35zZ/+IfnT/h350/4d+dP+HfnT/h35z/4d+
+        c/+HfXP/h31z/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv+Ee3D/hHtw/4R6b/+Eem//2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4J4bP+CeGz/gXds/4F3bP+BQxT/gEMU/4BD
+        FP+AQhT/f0IU/39CFP9/QhT/fkEU/35BFP99QRT/fUEU/31AFf98QBX/fEAV/3tAFf97PxX/f3Vp/391
+        af9/dGj/f3Ro/350aP9+dGj/fnRo/350Z/+If3T/iH90/4h+dP+HfnT/h350/4d+c/+HfnP/h35z/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+Fe3D/hHtw/4R7cP+Ee3D/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4J4bf+CeGz/gnhs/4J4bP+BRBP/gUMT/4FDFP+AQxT/gEMU/4BC
+        FP9/QhT/f0IU/35CFP9+QRT/fkEU/31BFP99QRX/fEAV/3xAFf98QBX/f3Vp/391af9/dWn/f3Ro/390
+        aP9/dGj/fnRo/350aP+If3X/iH90/4h/dP+IfnT/h350/4d+dP+HfnT/h35z/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Fe3D/hXtw/4V7
+        cP+Ee3D/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4J4bf+CeG3/gnhs/4J4bP+CRBP/gkQT/4FEE/+BQxT/gUMU/4BDFP+AQxT/gEIU/39C
+        FP9/QhT/fkIU/35BFP9+QRT/fUEU/31BFf98QBX/f3Vp/391af9/dWn/f3Vp/391af9/dGj/f3Ro/390
+        aP+If3X/iH91/4h/dP+If3T/iH90/4h+dP+HfnT/h350/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Fe3H/hXtw/4V7cP+Fe3D/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4J4
+        bf+CeG3/gnht/4J4bf+DRBP/gkQT/4JEE/+CRBP/gUMT/4FDFP+AQxT/gEMU/4BCFP9/QhT/f0IU/39C
+        FP9+QhT/fkEU/35BFP99QRT/gHVq/4B1af9/dWn/f3Vp/391af9/dWn/f3Vp/390aP+If3X/iH91/4h/
+        df+If3X/iH90/4h/dP+If3T/iH50/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+FfHH/hXxx/4V7cf+Fe3D/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4N5bf+DeW3/gnht/4J4
+        bf+DRRP/g0UT/4JEE/+CRBP/gkQT/4FEE/+BQxP/gUMU/4BDFP+AQxT/gEIU/39CFP9/QhT/f0IU/35B
+        FP9+QRT/gHZq/4B2av+AdWr/gHVp/391af9/dWn/f3Vp/391af+JgHX/iX91/4h/df+If3X/iH91/4h/
+        df+If3T/iH90/7Gpn//Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/7Cnnv+GfHH/hXxx/4V8cf+FfHH/r6ee/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/rqac/4N5bv+DeW7/g3lt/4N5bf+ERRP/g0UT/4NF
+        E/+DRBP/gkQT/4JEE/+CRBP/gUQT/4FDE/+BQxT/gEMU/4BDFP+AQhT/f0IU/39CFP9+QhT/gHZq/4B2
+        av+Admr/gHZq/4B1av+AdWn/f3Vp/391af+JgHb/iYB2/4mAdf+Jf3X/iH91/4h/df+If3X/iH91/4h/
+        dP+If3T/iH50/4d+dP+HfnT/h350/4d+c/+HfnP/h35z/4d9c/+HfXP/hn1y/4Z9cv+GfXL/hn1y/4Z8
+        cv+GfHL/hnxx/4Z8cf+FfHH/hXxx/4V7cf+Fe3D/hXtw/4V7cP+Fe3D/hHtw/4R7cP+Ee3D/hHpv/4R6
+        b/+Eem//hHpv/4N6b/+Dem7/g3lu/4N5bv+DeW7/g3lu/4N5bv+ERRP/hEUT/4RFE/+DRRP/g0UT/4NE
+        E/+CRBP/gkQT/4JEE/+BQxP/gUMU/4FDFP+AQxT/gEMU/39CFP9/QhT/gHZr/4B2av+Admr/gHZq/4B2
+        av+Admr/gHVp/391af+JgHb/iYB2/4mAdv+JgHb/iYB1/4l/df+If3X/iH91/4h/df+If3T/iH90/4h/
+        dP+IfnT/h350/4d+dP+HfnT/h35z/4d+c/+HfXP/h31z/4d9c/+GfXL/hn1y/4Z9cv+GfXL/hnxy/4Z8
+        cv+GfHH/hXxx/4V8cf+FfHH/hXtx/4V7cP+Fe3D/hXtw/4V7cP+Ee3D/hHtw/4R6b/+Eem//hHpv/4R6
+        b/+Eem//g3pv/4N6bv+DeW7/g3lu/4N5bv+FRhP/hEYT/4RFE/+ERRP/g0UT/4NFE/+DRRP/g0QT/4JE
+        E/+CRBP/gkQT/4FDE/+BQxT/gEMU/4BDFP+AQhT/gXdr/4F2a/+Admv/gHZq/4B2av+Admr/gHZq/4B1
+        av+JgHb/iYB2/4mAdv+JgHb/iYB2/4mAdv+JgHX/iH91/4h/df+If3X/iH91/4h/dP+If3T/iH90/4h+
+        dP+HfnT/h350/4d+c/+HfnP/h35z/4d9c/+HfXP/h31z/4Z9cv+GfXL/hn1y/4Z9cv+GfHL/hnxx/4Z8
+        cf+FfHH/hXxx/4V8cf+Fe3H/hXtw/4V7cP+Fe3D/hHtw/4R7cP+Ee3D/hHpv/4R6b/+Eem//hHpv/4R6
+        b/+Dem//g3pu/4N5bv+FRhL/hUYT/4VGE/+ERhP/hEUT/4RFE/+DRRP/g0UT/4NEE/+CRBP/gkQT/4JE
+        E/+BRBP/gUMT/4FDFP+AQxT/gXdr/4F3a/+Bd2v/gXZr/4B2av+Admr/gHZq/4B2av+KgXf/ioF3/4mA
+        dv+JgHb/iYB2/4mAdv+JgHb/iYB1/4l/df+If3X/iH91/4h/df+If3X/iH90/4h/dP+If3T/h350/4d+
+        dP+HfnT/h35z/4d+c/+HfnP/h31z/4d9c/+HfXP/hn1y/4Z9cv+GfXL/hnxy/4Z8cv+GfHH/hnxx/4V8
+        cf+FfHH/hXxx/4V7cf+Fe3D/hXtw/4V7cP+Ee3D/hHtw/4R7cP+Eem//hHpv/4R6b/+Eem//hHpv/4N6
+        bv+GRhL/hUYS/4VGEv+FRhP/hUYT/4RFE/+ERRP/hEUT/4NFE/+DRRP/g0QT/4JEE/+CRBP/gkQT/4FE
+        E/+BQxP/gXdr/4F3a/+Bd2v/gXdr/4F2a/+Admv/gHZq/4B2av+KgXf/ioF3/4qBd/+KgXf/iYB2/4mA
+        dv+JgHb/iYB2/7GpoP/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/7Con/+HfXP/h31z/4Z9cv+GfXL/sKie/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/r6ed/4R6b/+Eem//hHpv/4R6b/+GRxL/hkcS/4ZG
+        Ev+FRhL/hUYS/4VGE/+FRhP/hEUT/4RFE/+ERRP/g0UT/4NFE/+DRBP/gkQT/4JEE/+CRBP/gXds/4F3
+        bP+Bd2v/gXdr/4F3a/+Bd2v/gXZr/4B2a/+KgXf/ioF3/4qBd/+KgXf/ioF3/4mAdv+JgHb/iYB2/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+HfnP/h31z/4d9c/+HfXP/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4R7cP+Eem//hHpv/4R6b/+HRxL/hkcS/4ZHEv+GRxL/hkYS/4VG
+        Ev+FRhL/hUYT/4RGE/+ERRP/hEUT/4NFE/+DRRP/g0UT/4NEE/+CRBP/gnhs/4F3bP+Bd2z/gXdr/4F3
+        a/+Bd2v/gXdr/4F3a/+Kgnj/ioF4/4qBd/+KgXf/ioF3/4qBd/+KgXf/iYB2/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+HfnP/h35z/4d+
+        c/+HfXP/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4R7cP+Ee3D/hHtw/4R6b/+HRxL/h0cS/4dHEv+GRxL/hkcS/4ZHEv+GRhL/hUYS/4VG
+        E/+FRhP/hEYT/4RFE/+ERRP/g0UT/4NFE/+DRBP/gnhs/4J4bP+CeGz/gXds/4F3bP+Bd2v/gXdr/4F3
+        a/+Lgnj/ioJ4/4qBeP+KgXf/ioF3/4qBd/+KgXf/ioF3/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+HfnT/h350/4d+c/+HfnP/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4V7
+        cP+Fe3D/hHtw/4R7cP+ISBL/h0gS/4dHEv+HRxL/h0cS/4ZHEv+GRxL/hkYS/4VGEv+FRhL/hUYT/4VG
+        E/+ERRP/hEUT/4RFE/+DRRP/gnht/4J4bP+CeGz/gnhs/4J4bP+Bd2z/gXds/4F3a/+Lgnj/i4J4/4uC
+        eP+Kgnj/ioF4/4qBd/+KgXf/ioF3/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+IfnT/h350/4d+dP+HfnT/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4V7cP+Fe3D/hXtw/4V7
+        cP+ISBL/iEgS/4hIEv+HSBL/h0cS/4dHEv+GRxL/hkcS/4ZHEv+GRhL/hUYS/4VGEv+FRhP/hUYT/4RF
+        E/+ERRP/gnht/4J4bf+CeG3/gnhs/4J4bP+CeGz/gnhs/4F3bP+Lgnn/i4J4/4uCeP+Lgnj/i4J4/4qC
+        eP+KgXj/ioF3/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv+If3T/iH90/4h+dP+HfnT/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4V8cf+Fe3H/hXtw/4V7cP+ISBL/iEgS/4hI
+        Ev+ISBL/iEgS/4dHEv+HRxL/h0cS/4ZHEv+GRxL/hkcS/4ZGEv+FRhL/hUYT/4VGE/+ERhP/g3lt/4J4
+        bf+CeG3/gnht/4J4bf+CeGz/gnhs/4J4bP+Lgnn/i4J5/4uCef+Lgnj/i4J4/4uCeP+Lgnj/ioJ4/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+If3X/iH90/4h/dP+If3T/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4V8cf+FfHH/hXxx/4V7cf+JSRL/iUgS/4hIEv+ISBL/iEgS/4hI
+        Ev+HSBL/h0cS/4dHEv+HRxL/hkcS/4ZHEv+GRxL/hUYS/4VGEv+FRhP/g3lu/4N5bf+DeW3/gnht/4J4
+        bf+CeG3/gnhs/4J4bP+Mg3n/i4N5/4uCef+Lgnn/i4J5/4uCeP+Lgnj/i4J4/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+If3X/iH91/4h/
+        df+If3T/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4Z8cf+GfHH/hXxx/4V8cf+JSRH/iUkR/4lJEv+JSBL/iEgS/4hIEv+ISBL/iEgS/4dI
+        Ev+HRxL/h0cS/4dHEv+GRxL/hkcS/4ZGEv+FRhL/g3lu/4N5bv+DeW7/g3lt/4N5bf+CeG3/gnht/4J4
+        bf+Mg3n/jIN5/4yDef+Lg3n/i4J5/4uCef+Lgnn/i4J4/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Jf3X/iH91/4h/df+If3X/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4Z8
+        cv+GfHL/hnxx/4Z8cf+KSRH/iUkR/4lJEf+JSRL/iUgS/4lIEv+ISBL/iEgS/4hIEv+ISBL/h0gS/4dH
+        Ev+HRxL/hkcS/4ZHEv+GRxL/g3lu/4N5bv+DeW7/g3lu/4N5bf+DeW3/gnht/4J4bf+Mg3r/jIN6/4yD
+        ef+Mg3n/jIN5/4uDef+Lgnn/i4J5/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+JgHb/iYB1/4h/df+If3X/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4Z9cv+GfXL/hnxy/4Z8
+        cf+KSRH/ikkR/4pJEf+JSRH/iUkR/4lJEv+JSBL/iEgS/4hIEv+ISBL/iEgS/4hIEv+HRxL/h0cS/4dH
+        Ev+GRxL/g3pv/4N6bv+DeW7/g3lu/4N5bv+DeW7/g3lt/4N5bf+MhHr/jIN6/4yDev+Mg3r/jIN5/4yD
+        ef+Lg3n/i4J5/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv+JgHb/iYB2/4mAdf+Jf3X/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4Z9cv+GfXL/hn1y/4Z8cv+KSRH/ikkR/4pJ
+        Ef+KSRH/iUkR/4lJEf+JSRH/iUkS/4lIEv+ISBL/iEgS/4hIEv+ISBL/h0gS/4dHEv+HRxL/hHpv/4R6
+        b/+Dem7/g3lu/4N5bv+DeW7/g3lu/4N5bv+MhHr/jIR6/4yEev+Mg3r/jIN6/4yDef+Mg3n/jIN5/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+JgHb/iYB2/4mAdv+JgHb/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4d9c/+GfXL/hn1y/4Z9cv+KShH/ikoR/4pJEf+KSRH/ikkR/4pJ
+        Ef+JSRH/iUkR/4lJEv+JSRL/iUgS/4hIEv+ISBL/iEgS/4hIEv+HSBL/hHpv/4R6b/+Eem//g3pv/4N6
+        bv+DeW7/g3lu/4N5bv+NhHv/jYR7/4yEev+MhHr/jIN6/4yDev+Mg3r/jIN5/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+JgHb/iYB2/4mA
+        dv+JgHb/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4d9c/+HfXP/h31z/4Z9cv+LShH/i0oR/4pKEf+KShH/ikkR/4pJEf+KSRH/ikkR/4lJ
+        Ef+JSRH/iUkS/4lIEv+JSBL/iEgS/4hIEv+ISBL/hHpv/4R6b/+Eem//hHpv/4R6b/+Dem//g3pu/4N5
+        bv+NhHv/jYR7/42Ee/+MhHr/jIR6/4yEev+Mg3r/jIN6/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+KgXf/ioF3/4mAdv+JgHb/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4d+
+        c/+HfnP/h31z/4d9c/+LShH/i0oR/4tKEf+LShH/ikoR/4pJEf+KSRH/ikkR/4pJEf+KSRH/iUkR/4lJ
+        Ef+JSRL/iUgS/4hIEv+ISBL/hHtw/4R7cP+Eem//hHpv/4R6b/+Eem//hHpv/4N6b/+NhXv/jYR7/42E
+        e/+NhHv/jYR7/4yEev+MhHr/jIR6/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+KgXf/ioF3/4qBd/+KgXf/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4d+dP+HfnP/h35z/4d+
+        c/+LShH/i0oR/4tKEf+LShH/i0oR/4pKEf+KShH/ikkR/4pJEf+KSRH/ikkR/4lJEf+JSRH/iUkR/4lJ
+        Ev+JSBL/hXtw/4R7cP+Ee3D/hHtw/4R6b/+Eem//hHpv/4R6b/+NhXz/jYV7/42Fe/+NhHv/jYR7/42E
+        e/+NhHv/jIR6/7Orov/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/7Kqof+KgXf/ioF3/4qBd/+KgXf/sqqh/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/saif/4d+dP+HfnT/h350/4d+c/+JZEL/i0oR/4tK
+        Ef+LShH/i0oR/4tKEf+LShH/ikoR/4pKEf+KSRH/ikkR/4pJEf+KSRH/iUkR/4lJEf+HYkH/hXtw/4V7
+        cP+Fe3D/hHtw/4R7cP+Ee3D/hHpv/4R6b/+OhXz/jYV8/42FfP+NhXv/jYV7/42Ee/+NhHv/jYR7/42E
+        e/+MhHr/jIR6/4yDev+Mg3r/jIN6/4yDef+Mg3n/jIN5/4uDef+Lgnn/i4J5/4uCeP+Lgnj/i4J4/4uC
+        eP+Kgnj/ioF4/4qBd/+KgXf/ioF3/4qBd/+KgXf/iYB2/4mAdv+JgHb/iYB2/4mAdv+JgHb/iYB1/4l/
+        df+If3X/iH91/4h/df+If3T/iH90/4h/dP+IfnT/h350/4d+dP+HfnT/h35z/4d+c/+HfXP/h31z/4d9
+        c/+GfXL/hn1y/4Z9cv+GfXL/hnxy/4Z8cv+GfHH/hXxx/4V8cf+FfHH/hXtx/4V7cP+Fe3D/hXtw/4V7
+        cP+Ee3D/hHtw/4R6b/+OhXz/joV8/46FfP+NhXz/jYV8/42Fe/+NhXv/jYR7/42Ee/+NhHv/jIR6/4yE
+        ev+MhHr/jIN6/4yDev+Mg3r/jIN5/4yDef+Lg3n/i4J5/4uCef+Lgnn/i4J4/4uCeP+Lgnj/i4J4/4qC
+        eP+KgXj/ioF3/4qBd/+KgXf/ioF3/4qBd/+JgHb/iYB2/4mAdv+JgHb/iYB2/4mAdv+Jf3X/iH91/4h/
+        df+If3X/iH91/4h/dP+If3T/iH90/4h+dP+HfnT/h350/4d+c/+HfnP/h35z/4d9c/+HfXP/h31z/4Z9
+        cv+GfXL/hn1y/4Z8cv+GfHL/hnxx/4Z8cf+FfHH/hXxx/4V8cf+Fe3H/hXtw/4V7cP+Fe3D/hHtw/4R7
+        cP+Ohn3/joZ8/46FfP+OhXz/joV8/42FfP+NhXz/jYV7/42Ee/+NhHv/jYR7/42Ee/+MhHr/jIR6/4yE
+        ev+Mg3r/jIN6/4yDef+Mg3n/jIN5/4uDef+Lgnn/i4J5/4uCef+Lgnj/i4J4/4uCeP+Kgnj/ioF4/4qB
+        d/+KgXf/ioF3/4qBd/+KgXf/ioF3/4mAdv+JgHb/iYB2/4mAdv+JgHb/iYB1/4l/df+If3X/iH91/4h/
+        df+If3X/iH90/4h/dP+IfnT/h350/4d+dP+HfnT/h35z/4d+c/+HfnP/h31z/4d9c/+HfXP/hn1y/4Z9
+        cv+GfXL/hnxy/4Z8cv+GfHH/hnxx/4V8cf+FfHH/hXxx/4V7cP+Fe3D/hXtw/4V7cP+Ohn3/joZ9/46G
+        ff+Ohnz/joV8/46FfP+NhXz/jYV8/42Fe/+NhXv/jYR7/42Ee/+NhHv/jYR7/4yEev+MhHr/jIN6/4yD
+        ev+Mg3r/jIN5/4yDef+Mg3n/i4N5/4uCef+Lgnn/i4J5/4uCeP+Lgnj/i4J4/4qCeP+KgXj/ioF3/4qB
+        d/+KgXf/ioF3/4qBd/+JgHb/iYB2/4mAdv+JgHb/iYB2/4mAdv+JgHX/iX91/4h/df+If3X/iH91/4h/
+        dP+If3T/iH90/4h+dP+HfnT/h350/4d+dP+HfnP/h35z/4d+c/+HfXP/h31z/4Z9cv+GfXL/hn1y/4Z9
+        cv+GfHL/hnxy/4Z8cf+GfHH/hXxx/4V8cf+Fe3H/hXtw/4V7cP+Phn3/joZ9/46Gff+Ohn3/joZ9/46F
+        fP+OhXz/joV8/7Oso//Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/7Orov+Lg3n/i4J5/4uCef+Lgnj/sqqh/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/samg/4mAdf+Jf3X/iH91/4h/df+xqaD/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+wqJ7/hn1y/4Z8
+        cv+GfHH/hnxx/4V8cf+FfHH/hXxx/4V7cf+Phn3/j4Z9/4+Gff+Ohn3/joZ9/46Gff+Ohnz/joV8/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+Mg3n/i4N5/4uCef+Lgnn/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4mAdv+JgHX/iX91/4h/df/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/hn1y/4Z9cv+GfHL/hnxy/4Z8
+        cf+GfHH/hXxx/4V8cf+Ph37/j4d+/4+Gff+Phn3/joZ9/46Gff+Ohn3/joZ9/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Mg3n/jIN5/4yD
+        ef+Lg3n/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4mAdv+JgHb/iYB2/4mAdf/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/hn1y/4Z9cv+GfXL/hn1y/4Z8cv+GfHL/hnxx/4Z8
+        cf+Ph37/j4d+/4+Hfv+Phn3/j4Z9/4+Gff+Ohn3/joZ9/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Mg3r/jIN6/4yDef+Mg3n/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4mA
+        dv+JgHb/iYB2/4mAdv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/h31z/4d9c/+GfXL/hn1y/4Z9cv+GfXL/hnxy/4Z8cv+Ph37/j4d+/4+H
+        fv+Ph37/j4d+/4+Gff+Phn3/j4Z9/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+MhHr/jIN6/4yDev+Mg3r/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4qBd/+JgHb/iYB2/4mA
+        dv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/h35z/4d9c/+HfXP/h31z/4Z9cv+GfXL/hn1y/4Z9cv+Qh3//kId+/4+Hfv+Ph37/j4d+/4+H
+        fv+Ph37/j4Z9/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv+MhHr/jIR6/4yEev+Mg3r/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4qBd/+KgXf/ioF3/4mAdv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/h35z/4d+
+        c/+HfnP/h31z/4d9c/+HfXP/hn1y/4Z9cv+QiH//kIh//5CHf/+Qh37/j4d+/4+Hfv+Ph37/j4d+/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+NhHv/jYR7/4yEev+MhHr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4qBd/+KgXf/ioF3/4qBd//Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/h350/4d+dP+HfnP/h35z/4d+
+        c/+HfXP/h31z/4Z9cv+QiH//kIh//5CIf/+QiH//kId//5CHfv+Ph37/j4d+/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+NhHv/jYR7/42E
+        e/+NhHv/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4qBeP+KgXf/ioF3/4qBd//Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/iH50/4d+dP+HfnT/h350/4d+c/+HfnP/h31z/4d9
+        c/+QiID/kIh//5CIf/+QiH//kIh//5CIf/+Qh3//j4d+/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+NhXv/jYV7/42Ee/+NhHv/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4uC
+        eP+Kgnj/ioF4/4qBd//Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/iH90/4h/dP+IfnT/h350/4d+dP+HfnP/h35z/4d+c/+RiYD/kIiA/5CI
+        gP+QiH//kIh//5CIf/+QiH//kId//9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+NhXz/jYV8/42Fe/+NhHv/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4uCeP+Lgnj/i4J4/4qB
+        eP/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/iH91/4h/dP+If3T/iH50/4d+dP+HfnT/h350/4d+c/+RiYD/kYmA/5GJgP+QiID/kIiA/5CI
+        f/+QiH//kIh//9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv+OhXz/jYV8/42FfP+NhXv/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4uCef+Lgnj/i4J4/4uCeP/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/iH91/4h/
+        df+If3T/iH90/4h/dP+IfnT/h350/4d+dP+RiYH/kYmA/5GJgP+RiYD/kIiA/5CIgP+QiH//kIh//9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv+OhXz/joV8/46FfP+NhXz/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4uCef+Lgnn/i4J4/4uCeP/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/iX91/4h/df+If3X/iH91/4h/
+        dP+If3T/iH90/4h+dP+RiYH/kYmB/5GJgf+RiYD/kYmA/5GJgP+QiID/kIiA/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Ohn3/joZ8/46F
+        fP+OhXz/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/4uDef+Lgnn/i4J5/4uCef/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/iYB1/4l/df+If3X/iH91/4h/df+If3X/iH90/4h/
+        dP+SioH/kYmB/5GJgf+RiYH/kYmA/5GJgP+RiYD/kYmA/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Ohn3/joZ9/46Gff+Ohnz/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4yD
+        ef+Mg3n/i4N5/4uCef/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/iYB2/4mAdv+JgHX/iX91/4h/df+If3X/iH91/4h/df+SioL/koqB/5GJ
+        gf+RiYH/kYmB/5GJgf+RiYD/kYmA/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+Phn3/joZ9/46Gff+Ohn3/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/4yDev+Mg3n/jIN5/4yD
+        ef/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/iYB2/4mAdv+JgHb/iYB2/4mAdf+Jf3X/iH91/4h/df+SioL/koqC/5KKgf+SioH/kYmB/5GJ
+        gf+RiYH/kYmB/7Wupf/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/7StpP+Phn3/j4Z9/4+Gff+Ohn3/tKyk/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/s6ui/4yDev+Mg3r/jIN6/4yDef+zq6L/2dLK/9nS
+        yv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv/Z0sr/2dLK/9nSyv+yqqH/iYB2/4mA
+        dv+JgHb/iYB2/4mAdv+JgHb/iYB1/4l/df+SioL/koqC/5KKgv+SioL/koqB/5KKgf+RiYH/kYmB/5GJ
+        gf+RiYD/kYmA/5GJgP+RiYD/kIiA/5CIgP+QiH//kIh//5CIf/+QiH//kId//5CHfv+Ph37/j4d+/4+H
+        fv+Ph37/j4d+/4+Gff+Phn3/j4Z9/46Gff+Ohn3/joZ9/46GfP+OhXz/joV8/46FfP+NhXz/jYV8/42F
+        e/+NhXv/jYR7/42Ee/+NhHv/jIR6/4yEev+MhHr/jIN6/4yDev+Mg3r/jIN5/4yDef+Lg3n/i4J5/4uC
+        ef+Lgnn/i4J4/4uCeP+Lgnj/i4J4/4qCeP+KgXf/ioF3/4qBd/+KgXf/ioF3/4qBd/+JgHb/iYB2/4mA
+        dv+JgHb/iYB2/4mAdf+Si4L/koqC/5KKgv+SioL/koqC/5KKgv+SioH/koqB/5GJgf+RiYH/kYmB/5GJ
+        gP+QiH//kIh//5CIf/+Ph3//j4d//4+Hf/+Ph3//j4d//4+Hf/+Phn//j4Z+/46Gfv+Ohn7/joZ+/46G
+        fv+Ohn7/joV9/46Fff+NhX3/jYV9/42Fff+NhX3/jYV8/42EfP+NhHz/jYR8/4yEfP+MhHv/jIR7/4yD
+        e/+Mg3v/jIN7/4yDe/+Lg3r/i4N6/4uDev+Lgnr/i4J6/4uCef+Lgnn/i4J5/4qCef+KgXn/ioF5/4qB
+        ef+KgXj/ioF4/4qBeP+Kgnj/ioF4/4qBd/+KgXf/ioF3/4qBd/+KgXf/ioF3/4mAdv+JgHb/iYB2/4mA
+        dv+Ti4P/k4uC/5KLgv+SioL/koqC/5KKgv+SioL/kYmA/5GJgP+QiID/kIiA/5CIgP+QiID/kIh//5CI
+        f/+QiH//kIh//4+Hf/+Ph37/j4d+/4+Hfv+Ph37/j4d+/4+Gfv+Phn3/joZ9/46Gff+Ohn3/joZ9/46F
+        fP+OhXz/joV8/42FfP+NhXz/jYV8/42FfP+NhXv/jYR7/42Ee/+MhHv/jIR7/4yEev+MhHr/jIN6/4yD
+        ev+Mg3r/jIN6/4uDef+Lg3n/i4J5/4uCef+Lgnn/i4J4/4uCeP+Lgnj/ioJ4/4qBeP+KgXj/ioF3/4qB
+        d/+KgXf/ioF3/4mBd/+JgHj/iYB3/4qBd/+KgXf/ioF3/4qBd/+JgHb/iYB2/4mAdv+Ti4P/k4uD/5OL
+        g/+Ti4L/kouC/5KKgv+RiYH/kYmB/5CIgP+QiH//j4d+/46Gfv+Ohn7/joZ+/46Gfv+Ohn3/joZ9/46G
+        ff+NhX3/jYV9/42FfP+NhXz/jYV8/42FfP+NhXz/jYR8/4yEe/+MhHv/jIR7/4yEe/+MhHv/jIN6/4yD
+        ev+Mg3r/i4N6/4uDev+Lg3r/i4N5/4uCef+Lgnn/i4J5/4qCef+Kgnn/ioJ4/4qCeP+KgXj/ioF4/4qB
+        eP+JgXf/iYF3/4mBd/+JgHf/iYB3/4mAd/+JgHb/iYB2/4mAdv+If3b/iH92/4h/dv+If3X/iH92/4mA
+        dv+KgXf/iYF3/4mAeP+KgXf/ioF3/4qBd/+KgXf/ioF3/4mAdv+Ti4P/k4uD/5OLg/+Ti4P/k4uD/5GK
+        gf+RiYH/kIiA/4+Hf/+MhX3/jIR8/4uEe/+Lg3r/ioJ6/4qCev+Kgnr/ioJ5/4qCef+Kgnn/ioJ5/4mB
+        ef+JgXn/iYF5/4mBef+JgXn/iYF5/4mAef+JgHj/iIB4/4iAeP+IgHj/iIB4/4iAeP+If3f/iH93/4h/
+        d/+Hf3f/h393/4d/d/+Hf3b/h352/4d+dv+Hfnb/hn52/4Z+dv+GfnX/hn11/4Z9df+GfXX/hn11/4V9
+        dP+FfXT/hX10/4V8dP+FfHT/hXx0/4V8c/+FfHP/hHxz/4R7c/+FfHP/hXx0/4Z9dP+If3X/iYB2/4qB
+        d/+JgHj/ioF3/4qBd/+KgXf/ioF3/4qBd/+TjIT/k4yD/5OLg/+Ti4P/koqC/5KKgv+RiYD/jYd+/4uE
+        fP+IgXn/h394/4V+d/+Ffnb/hX51/4N8df+DfHX/g3x1/4N8df+DfHT/g3x0/4N8dP+DfHT/gnt0/4J7
+        dP+Ce3P/gntz/4J7c/+Ce3P/gnpz/4J6cv+CenL/gnpy/4J6cv+CenL/gnpy/4J5cf+CeXH/gXlx/4F5
+        cf+BeXH/gXlx/4F5cP+BeHD/gXhw/4F4cP+AeHD/gHhw/4B4cP+AeHD/gHhw/4B4cP+AeHD/f3hv/394
+        b/9/eG//f3dv/393b/9/d27/f3du/393bv9/eG//gHhw/4J6cv+FfHT/h351/4mAdv+KgXf/iYF4/4qB
+        eP+KgXf/ioF3/4qBd/+UjIT/lIyE/5OMhP+Ti4P/koqC/5GJgf+Ph3//jIR8/4iBeP+EfnX/gHly/394
+        cf9+d3D/fndw/313bv99d27/fHZu/3x2bv98dm7/fHZu/3x2bf98dm3/fHZt/3x1bf98dW3/fHVt/3x1
+        bf98dW3/fHVt/3x1bf98dG3/fHRs/3t0bP97dGz/e3Rs/3t0bP97c2v/e3Nr/3tza/96c2v/enNr/3pz
+        a/96c2v/enNq/3pyav96cmr/eXJq/3lyav95cmn/eXJp/3lxaf95cWn/eXFp/3lxaf94cWj/eHFo/3hw
+        aP94cGj/eXFp/3lxaP96cmn/e3Nr/312bf+BeXH/hXx0/4h/df+KgXf/ioF4/4uCeP+Kgnj/ioF4/4qB
+        d/+UjIT/lIyE/5SMhP+TjIT/kouC/5CIgP+Ohn7/iYF6/353cP90bmf/cGpj/21oYf9tZ2H/bGdg/2xn
+        YP9sZ2D/bGdg/2xnYP9rZmD/a2Zg/2tmYP9rZmD/a2Zf/2tmX/9rZl//a2Vf/2tlX/9rZV7/a2Ve/2tl
+        Xv9rZV7/a2Ve/2tkXv9qZF7/amRe/2pkXv9qZF7/amRe/2pjXf9qY13/amNd/2ljXf9pY13/aWNd/2lj
+        XP9pY1z/aWNc/2ljXP9pY1z/aWNc/2ljW/9pY1v/aWJb/2liW/9pYlv/aGJa/2hiWv9oYlr/aGFa/2hi
+        W/9pY1z/a2Rd/3BpYf98dGv/g3py/4Z9df+JgHf/ioF3/4uCeP+Lgnj/i4J4/4qCeP+UjYX/lIyE/5SM
+        hP+Ti4P/k4uD/5CJgf+Mhn3/hX12/7ajVv/720j/+9tI//vaSP/62kf/+tlH//rZRv/62Eb/+ddF//nX
+        Rf/51kT/+dVE//jVQ//41EP/+NNC//fSQv/30kH/99FB//fQQP/20ED/9s8///bOPv/2zT7/9cw9//XM
+        Pf/1yzz/9Mo8//TJO//0yDr/88g6//PHOf/zxjn/88U4//LEN//ywzf/8cM2//HCNv/xwTX/8cA0//C/
+        NP/wvjP/770y/++8Mv/vvDH/7rsx/+66MP/uuS//7bgu/+23Lv/tti3/7LUs/+y0LP/ssyv/67Iq/+ux
+        Kv+ujkb/gnlw/4Z+dP+If3f/ioF4/4uCef+Lgnj/i4J4/4uCeP+UjYX/lI2F/5SMhP+Ti4P/k4uD/5GJ
+        gf+MhH3/g311//zdSv/73Un/+9xJ//vbSP/720j/+tpH//raR//62Uf/+thG//rYRv/510X/+dZF//nW
+        RP/51UT/+NRD//jUQ//400L/99JC//fRQf/30UH/99BA//bPQP/2zz//9s4+//XNPv/1zD3/9cs9//XL
+        PP/0yjz/9Mk7//TIOv/zxzr/88c5//PGOf/yxTj/8sQ3//LDN//xwjb/8cE1//HBNf/wwDT/8L80//C+
+        M//vvTL/77wy/++7Mf/uujD/7row/+65L//tty7/7bcu/+22Lf/stSz/7LQs/+yzK//rsir/gHhv/4Z9
+        c/+JgHb/ioJ4/4uCef+Lgnn/i4J5/4uCeP+VjYX/lI2F/5SNhf+TjIT/k4uD/5CIgP+LhHz/g3x0//ze
+        Sv/83Ur//N1J//vcSf/73En/+9tI//vbSP/62kf/+tlH//rZRv/62Eb/+dhF//nXRf/51kX/+dVE//jV
+        Q//41EP/+NND//jTQv/30kL/99FB//fRQP/30ED/9s8///bOP//2zj7/9c0+//XMPf/1yz3/9Mo8//TK
+        O//0yTv/9Mg6//PHOv/zxjn/88Y4//LFOP/yxDf/8sM3//HCNv/xwTX/8cA1//DANP/wvzP/8L4z/++9
+        Mv/vvDH/77sx/+66MP/uuS//7rgv/+23Lv/tti3/7LUt/+y1LP/stCv/f3dv/4V8dP+JgHb/i4J4/4yD
+        ef+Lg3n/i4J5/4uCef+VjYX/lY2F/5WNhf+TjIT/kouD/5CJgf+LhHz/gnt0//zfS//830v//N5K//zd
+        Sv/73Un/+9xJ//vcSP/720j/+9tI//raR//62Uf/+tlG//rYRv/510X/+ddF//nWRP/51UT/+NVD//jU
+        Q//400L/+NNC//fSQf/30UH/99BA//bQQP/2zz//9s4///bNPv/1zT7/9cw9//XLPP/0yjz/9Mk7//TJ
+        O//0yDr/88c6//PGOf/zxTj/8sQ4//LEN//ywzb/8cI2//HBNf/xwDT/8L80//C+M//wvjP/770y/++8
+        Mf/uuzH/7row/+65L//tuC//7bcu/+22Lf/stSz/f3hv/4V8dP+JgHf/i4J5/4uCef+Mg3n/i4N5/4uC
+        ef+VjYb/lY2G/5WNhf+UjIT/k4uD/5CJgf+LhX3/gnt0//3gTP/830v//N9L//zeSv/83kr//N1K//vd
+        Sf/73En/+9tI//vbSP/72kj/+tpH//rZR//62Eb/+thG//nXRf/510X/+dZE//nVRP/41UP/+NRD//jT
+        Qv/30kL/99JB//fRQf/30ED/9s9A//bPP//2zj7/9s0+//XMPf/1zD3/9cs8//TKPP/0yTv/9Mg6//PI
+        Ov/zxzn/88Y5//LFOP/yxDf/8sM3//HDNv/xwjb/8cE1//DANP/wvzT/8L4z/++9Mv/vvDL/77wx/+66
+        MP/uujD/7rkv/+24Lv/tty7/f3hv/4V9dP+JgXf/i4J5/4uCev+Mg3n/jIN5/4yDef+Vjob/lY6G/5WN
+        hv+UjIX/k4uD/5GJgf+LhX3/gnx1//3hTP/94Ez//eBM//zfS//830v//N5K//zeSv/83Ur/+91J//vc
+        Sf/720j/+9tI//raR//62kf/+tlH//rYRv/52EX/+ddF//nWRf/51kT/+dVE//jUQ//41EP/+NNC//fS
+        Qv/30UH/99FB//fQQP/2z0D/9s4///bOPv/1zT7/9cw9//XLPf/1yzz/9Mo7//TJO//0yDr/88c6//PH
+        Of/zxjn/8sU4//LEN//ywzf/8cI2//HBNf/xwTX/8MA0//C/M//wvjP/770y/++8Mv/vuzH/7row/+65
+        L//uuC//f3dw/4Z9df+JgXf/i4N5/4uCev+Mg3r/jIN6/4yDef+Vjob/lY6G/5WOhv+UjYX/k4uE/5GJ
+        gf+MhX3/g3x1//3iTf/94Uz//eFM//3gTP/94Ev//N9L//zfS//83kr//N1K//zdSf/73En/+9xJ//vb
+        SP/720j/+tpH//rZR//62Ub/+thG//nYRf/510X/+dZE//nVRP/41UP/+NRD//jTQ//400L/99JB//fR
+        Qf/30UD/99BA//bPP//2zj//9s0+//XNPv/1zD3/9cs9//TKPP/0yjv/9Mk7//TIOv/zxzr/88Y5//PG
+        OP/yxTj/8sQ3//LDNv/xwjb/8cE1//HANf/wwDT/8L8z//C+M//vvTL/77wx/++7Mf/uujD/f3dw/4Z9
+        df+KgXj/i4N5/4uDev+MhHr/jIN6/4yDev+Wjof/lo6G/5WOhv+UjYX/k4yE/5GJgv+MhX7/g3x1//7i
+        Tf/94k3//eJN//3hTP/94Ez//eBM//3gS//830v//N9L//zeSv/83Ur/+91J//vcSf/73Ej/+9tI//vb
+        SP/62kf/+tlH//rZRv/62Eb/+ddF//nXRf/51kT/+dVE//jVQ//41EP/+NNC//jTQv/30kH/99FB//fQ
+        QP/20ED/9s8///bOP//2zT7/9cw9//XMPf/1yzz/9Mo8//TJO//0yTv/88g6//PHOf/zxjn/88U4//LE
+        OP/yxDf/8sM2//HCNv/xwTX/8cA0//C/NP/wvjP/8L4z/++8Mv/vvDH/f3hw/4Z9df+KgXj/jIN6/4yD
+        e/+MhHr/jIR6/4yEev+Wj4f/lo6H/5aOh/+UjYX/k4yE/5GKgv+Mhn7/g3x2//7jTv/+407//uJN//3i
+        Tf/94U3//eFM//3gTP/94Ez//N9L//zfS//83kr//N5K//zdSv/73Un/+9xJ//vbSP/720j/+9pI//ra
+        R//62Uf/+thG//rYRv/510X/+ddF//nWRP/51UT/+NRD//jUQ//400L/99JC//fSQf/30UH/99BA//bP
+        QP/2zz//9s4+//bNPv/1zD3/9cs9//XLPP/0yjz/9Mk7//TIOv/zyDr/88c5//PGOf/yxTj/8sQ3//LD
+        N//xwzb/8cI2//HBNf/wwDT/8L80//C+M//vvTL/gHlx/4Z+df+Kgnj/jIN6/4yDe/+NhHv/jYR7/4yE
+        ev+Wj4f/lo+H/5aOh/+VjYb/lY2F/5GKgv+Mhn7/hH12//7kTv/+407//uNO//7iTf/94k3//eJN//3h
+        Tf/94Uz//eBM//3gS//830v//N9L//zeSv/83kr//N1K//vcSf/73En/+9tI//vbSP/62kf/+tpH//rZ
+        R//62Eb/+dhF//nXRf/51kX/+dZE//nVRP/41EP/+NND//jTQv/30kL/99FB//fRQf/30ED/9s8///bO
+        P//2zj7/9c0+//XMPf/1yz3/9Mo8//TKO//0yTv/9Mg6//PHOv/zxzn/88Y4//LFOP/yxDf/8sM3//HC
+        Nv/xwTX/8cE1//DANP/wvzP/gXlx/4Z+dv+Kgnn/jIR6/4yEe/+NhHv/jYR7/42Ee/+Wj4j/lo+H/5aP
+        h/+Vjob/lY2G/5KKg/+Ohn//hH53//7kT//+5E///uRO//7jTv/+407//uJN//3iTf/94k3//eFM//3h
+        TP/94Ez//eBL//zfS//830v//N5K//zdSv/83Un/+9xJ//vcSP/720j/+9tI//raR//62Uf/+tlG//rY
+        Rv/510X/+ddF//nWRP/51UT/+NVD//jUQ//400L/+NNC//fSQf/30UH/99FA//fQQP/2zz//9s4///bN
+        Pv/1zT7/9cw9//XLPf/0yjz/9Mk7//TJO//0yDr/88c6//PGOf/zxjj/8sQ4//LEN//ywzb/8cI2//HB
+        Nf/xwDX/gXlx/4h/dv+Lgnn/jIR7/42FfP+NhXv/jYV7/42Ee/+Xj4j/lo+I/5aPh/+Vjob/lY6G/5KM
+        hP+Ph4D/h395///lT//+5U///uRP//7kTv/+407//uNO//7jTv/+4k3//eJN//3hTf/94Uz//eBM//3g
+        TP/94Ev//N9L//zeSv/83kr//N1K//vdSf/73En/+9xI//vbSP/72kj/+tpH//rZR//62Ub/+thG//nX
+        Rf/510X/+dZE//nVRP/41UP/+NRD//jTQv/30kL/99JB//fRQf/30ED/9tBA//bPP//2zj7/9s0+//XM
+        Pf/1zD3/9cs8//TKPP/0yTv/9Mg6//PIOv/zxzn/88Y5//PFOP/yxDj/8sM3//HDNv/xwjb/g3tz/4iA
+        d/+Lgnr/jYR7/46FfP+NhXz/jYV8/42Fe/+XkIj/l4+I/5ePiP+Wj4j/lY6G/5OMhP+QiYH/iIJ6///l
+        UP//5U///+VP//7lT//+5E///uRO//7jTv/+407//uNO//7iTf/94k3//eFN//3hTP/94Ez//eBM//zf
+        S//830v//N5K//zeSv/83Ur/+91J//vcSf/720j/+9tI//raR//62kf/+tlH//rYRv/62Eb/+ddF//nX
+        Rf/51kT/+dVE//jUQ//41EP/+NNC//fSQv/30UH/99FB//fQQP/2z0D/9s8///bOPv/1zT7/9cw9//XL
+        Pf/1yzz/9Mo8//TJO//0yDr/88c6//PHOf/zxjn/8sU4//LEN//ywzf/hH11/4mBef+MhHv/jYV7/46F
+        fP+OhXz/joV8/42FfP+XkIj/l5CI/5eQiP+Xj4j/lo6H/5SNhv+Ri4P/kot6///mUP//5lD//+VP///l
+        T///5U///uRP//7kT//+5E7//uNO//7jTv/+4k3//eJN//3iTf/94U3//eFM//3gTP/94Ev//N9L//zf
+        S//83kr//N5K//zdSf/73En/+9xJ//vbSP/720j/+tpH//rZR//62Ub/+thG//nYRf/510X/+dZF//nW
+        RP/41UP/+NRD//jTQ//400L/99JC//fRQf/30UD/99BA//bPP//2zj//9s4+//XNPv/1zD3/9cs9//TK
+        PP/0yjv/9Mk7//TIOv/zxzr/88Y5//PGOP/yxTj/iH92/4uDev+MhHz/jYV9/46Gff+Ohnz/joV8/46F
+        fP+XkIn/l5CJ/5eQiP+XkIj/lo+H/5aOh/+UjIX/l49+///mUP//5lD//+ZQ///lUP//5U///+VP//7l
+        T//+5E///uRP//7kTv/+407//uNO//7iTf/94k3//eJN//3hTP/94Uz//eBM//3gS//830v//N9L//ze
+        Sv/83Ur//N1J//vcSf/73Ej/+9tI//vbSP/62kf/+tlH//rZRv/62Eb/+ddF//nXRf/51kT/+dVE//jV
+        Q//41EP/+NNC//jTQv/30kH/99FB//fRQP/20ED/9s8///bOP//2zT7/9c0+//XMPf/1yzz/9Mo8//TJ
+        O//0yTv/9Mg6//PHOv/zxjn/i4J5/42Ee/+OhXz/jYV9/46Gff+Ohn3/joZ8/46FfP+YkIn/l5CJ/5eQ
+        if+XkIn/l5CI/5aPh/+VjYb/lIyF/8i4af//5lD//+ZQ///mUP//5lD//+VQ///lT///5U///uVP//7k
+        T//+5E7//uNO//7jTv/+407//uJN//3iTf/94U3//eFM//3gTP/94Ez//N9L//zfS//83kr//N5K//zd
+        Sv/73Un/+9xJ//vbSP/720j/+9pI//raR//62Uf/+tlG//rYRv/510X/+ddF//nWRP/51UT/+NVD//jU
+        Q//400L/99JC//fSQf/30UH/99BA//bQQP/2zz//9s4+//bNPv/1zD3/9cw9//XLPP/0yjz/9Mk7//TI
+        Ov+/plr/jIR8/46Gff+OhX3/j4Z9/46Gff+Ohn3/joZ9/46Gff+YkYn/mJCJ/5iQif+XkIn/l5CJ/5aP
+        h/+Wj4f/lo+H/5WNhv+UjIX/koyF/5KLg/+Si4P/kouD/5KLg/+SioP/koqC/5GKgv+RioL/kYqC/5GK
+        gv+RiYL/kYmC/5GJgf+RiYH/kImB/5CJgf+QiYH/kIiA/5CIgP+QiID/kIiA/5CIgP+PiID/j4h//4+H
+        f/+Ph3//j4d//4+Hf/+Ph37/jod+/46Gfv+Ohn7/joZ+/46Gfv+Ohn7/joZ9/42Fff+NhX3/jYV9/42F
+        ff+NhXz/jYV8/42FfP+NhXz/jIR8/4yEfP+MhHz/jIR8/4yEfP+MhHz/jYR8/42EfP+NhX3/joZ9/46G
+        fv+Ph37/j4Z9/4+Gff+Phn3/joZ9/46Gff+YkYr/mJGK/5iRif+YkIn/l5CJ/5eQif+XkIn/lo+H/5aP
+        h/+Wj4f/lo6H/5aOh/+UjYb/lI2F/5SNhf+UjYX/lIyF/5SMhf+UjIT/k4yE/5OMhP+TjIT/k4yE/5OL
+        hP+Ti4P/k4uD/5OLg/+Si4P/kouD/5KLg/+SioL/koqC/5KKgv+SioL/koqC/5GKgf+RiYH/kYmB/5GJ
+        gf+RiYH/kYmB/5GJgP+QiYD/kIiA/5CIgP+QiID/kIiA/5CIf/+QiH//j4d//4+Hf/+Ph3//j4d//4+H
+        fv+Ph37/j4d+/46Gfv+Ohn7/joZ+/46Gfv+Ph37/j4d+/4+Hfv+Phn//j4Z+/4+Hfv+Ph37/j4d+/4+H
+        fv+Phn3/j4Z9/4+Gff+YkYr/mJGK/5iRiv+YkYn/mJCJ/5iQif+XkIn/l5CJ/5eQif+Wj4f/lo+H/5aP
+        h/+Wjof/lY6H/5WOhv+Vjob/lY6G/5WOhv+VjYb/lY2G/5WNhf+UjYX/lI2F/5SNhf+UjIX/lIyF/5SM
+        hP+UjIT/lIyE/5OMhP+TjIT/k4yE/5OLg/+Ti4P/k4uD/5OLg/+Si4P/kouC/5KKgv+SioL/koqC/5KK
+        gv+SioL/koqB/5GJgf+RiYH/kYmB/5GJgf+RiYH/kYmA/5GJgP+QiID/kIiA/5CIgP+QiH//kIh//5CI
+        f/+QiH//j4d//4+Hf/+Ph3//j4d//5CIf/+QiH//kId//5CHfv+Ph37/j4d+/4+Hfv+Ph37/j4d+/4+G
+        ff+ZkYr/mJGK/5iRiv+YkYr/mJGK/5iRif+YkIn/mJCJ/5eQif+XkIn/l5CJ/5eQiP+XkIj/l4+I/5eP
+        iP+Wj4j/lo+H/5aPh/+Wj4f/lo+H/5aOh/+Wjof/lY6G/5WOhv+Vjob/lY6G/5WNhv+VjYb/lY2F/5WN
+        hf+VjYX/lI2F/5SNhf+UjIT/lIyE/5SMhP+UjIT/lIyE/5OMhP+TjIP/k4uD/5OLg/+Ti4P/k4uD/5OL
+        gv+Si4L/koqC/5KKgv+SioL/koqC/5KKgv+SioH/koqB/5GJgf+RiYH/kYmB/5GJgP+RiYD/kYmA/5GJ
+        gP+QiID/kIiA/5CIf/+QiH//kIh//5CIf/+Qh3//kId+/4+Hfv+Ph37/j4d+/4+Hfv+Zkov/mZGK/5iR
+        iv+YkYr/mJGK/5iRiv+YkYr/mJGJ/5iQif+YkIn/l5CJ/5eQif+XkIj/l5CI/5eQiP+Xj4j/l4+I/5aP
+        iP+Wj4f/lo+H/5aPh/+Wjof/lo6H/5aOhv+Vjob/lY6G/5WOhv+Vjob/lY2G/5WNhv+VjYX/lY2F/5SN
+        hf+UjYX/lI2F/5SMhP+UjIT/lIyE/5SMhP+UjIT/k4yE/5OMg/+Ti4P/k4uD/5OLg/+Ti4P/k4uC/5KL
+        gv+SioL/koqC/5KKgv+SioL/koqB/5KKgf+RiYH/kYmB/5GJgf+RiYH/kYmA/5GJgP+RiYD/kYmA/5CI
+        gP+QiH//kIh//5CIf/+QiH//kIh//5CHf/+Qh37/j4d+/4+Hfv+Nh4H/mZKL/5mSi/+ZkYr/mJGK/5iR
+        iv+YkYr/mJGK/5iRiv+YkYn/mJCJ/5eQif+XkIn/l5CJ/5eQiP+XkIj/l5CI/5ePiP+Xj4j/lo+I/5aP
+        h/+Wj4f/lo+H/5aOh/+Wjof/lo6G/5WOhv+Vjob/lY6G/5WOhv+VjYb/lY2F/5WNhf+VjYX/lI2F/5SN
+        hf+UjYX/lIyE/5SMhP+UjIT/lIyE/5OMhP+TjIP/k4uD/5OLg/+Ti4P/k4uD/5OLg/+Ti4L/kouC/5KK
+        gv+SioL/koqC/5KKgv+SioH/koqB/5GJgf+RiYH/kYmB/5GJgf+RiYD/kYmA/5GJgP+QiID/kIiA/5CI
+        f/+QiH//kIh//5CIf/+QiH//kId//4V+dv9VU1H/mZKL/5mSi/+Zkov/mZKL/5mRiv+YkYr/mJGK/5iR
+        iv+YkYr/mJGJ/5iQif+YkIn/l5CJ/5eQif+XkIn/l5CI/5eQiP+XkIj/l4+I/5aPiP+Wj4f/lo+H/5aP
+        h/+Wj4f/lo6H/5aOh/+Wjob/lY6G/5WOhv+Vjob/lY2G/5WNhv+VjYX/lY2F/5WNhf+UjYX/lI2F/5SN
+        hf+UjIT/lIyE/5SMhP+UjIT/k4yE/5OMg/+Ti4P/k4uD/5OLg/+Ti4P/k4uD/5KLgv+SioL/koqC/5KK
+        gv+SioL/koqC/5KKgf+SioH/kYmB/5GJgf+RiYH/kYmA/5GJgP+RiYD/kYmA/5CIgP+QiID/kIh//5CI
+        f/+QiH//kIh//1JPTf81NTX/VlRS/42Hgf+Zkov/mZKL/5mSi/+Zkov/mZGK/5iRiv+YkYr/mJGK/5iR
+        iv+YkYn/mJCJ/5iQif+XkIn/l5CJ/5eQif+XkIj/l5CI/5ePiP+Xj4j/lo+I/5aPh/+Wj4f/lo+H/5aP
+        h/+Wjof/lo6G/5WOhv+Vjob/lY6G/5WOhv+VjYb/lY2G/5WNhf+VjYX/lY2F/5SNhf+UjYX/lIyE/5SM
+        hP+UjIT/lIyE/5SMhP+TjIT/k4yD/5OLg/+Ti4P/k4uD/5OLg/+Ti4L/kouC/5KKgv+SioL/koqC/5KK
+        gv+SioL/koqB/5GJgf+RiYH/kYmB/5GJgf+RiYD/kYmA/5GJgP+RiYD/kIiA/5CIgP+Ffnf/UlBN/zc3
+        N/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
+  <data name="buttonDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonM.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="buttonPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 147</value>
+  </data>
+  <data name="buttonEqual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="button6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="&gt;&gt;RERDED.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonPoint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="buttonLess.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 322</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;buttonDivision.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button0.Name" xml:space="preserve">
+    <value>button0</value>
+  </data>
+  <data name="buttonLess.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="buttonDivision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="buttonDeleteAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;buttonPlus.Name" xml:space="preserve">
+    <value>buttonPlus</value>
+  </data>
+  <data name="buttonNegate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="buttonDeleteAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 90</value>
+  </data>
+  <data name="&gt;&gt;buttonPoint.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RERDED.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>⌫</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 322</value>
+  </data>
+  <data name="button0.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;textBoxAffichage.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonLess.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 70</value>
+  </data>
+  <data name="buttonDivision.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="button5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxAffichage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 73</value>
+  </data>
+  <data name="button0.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Name" xml:space="preserve">
+    <value>buttonDelete</value>
+  </data>
+  <data name="button0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonM.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="buttonNegate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;buttonPoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;buttonPoint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>aa</value>
+  </metadata>
+</root>
